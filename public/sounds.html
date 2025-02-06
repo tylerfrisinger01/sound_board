@@ -1,0 +1,86 @@
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>Edit Sounds</title>
+    <link rel="stylesheet" href="sounds.css">
+  </head>
+  <body class="sounds">
+    <div class="container">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <div class="icon-bar">
+        <a href="index.html"><i class="fa fa-home"></i></a> 
+        <a class="active" href="sounds.html"><i class="fa fa-music"></i></a> 
+      </div>
+    </div>
+    <div id="sound-settings">
+      
+      <label for="file1">Upload Sound for Button 1:</label>
+        <input type="file" id="file1" accept="audio/mp3" onchange="HandleFileUpload(1)">
+        <select id="dropdown1">
+          <option value="">No sound uploaded</option>
+        </select>
+        <input type="text" id="text1" placeholder="Enter text for button 1" onchange="UpdateText(1)">
+        <!-- <input type="text" id="displaytext1" disabled> -->
+
+        <label for="file2">Upload Sound for Button 2:</label>
+        <input type="file" id="file2" accept="audio/mp3" onchange="HandleFileUpload(2)">
+        <select id="dropdown2">
+          <option value="">No sound uploaded</option>
+        </select>
+        <input type="text" id="text2" placeholder="Enter text for button 2" onchange="UpdateText(2)">
+
+        <label for="file3">Upload Sound for Button 3:</label>
+        <input type="file" id="file3" accept="audio/mp3" onchange="HandleFileUpload(3)">
+        <select id="dropdown3">
+          <option value="">No sound uploaded</option>
+        </select>
+        <input type="text" id="text3" placeholder="Enter text for button 3" onchange="UpdateText(3)">
+
+        <label for="file4">Upload Sound for Button 4:</label>
+        <input type="file" id="file4" accept="audio/mp3" onchange="HandleFileUpload(4)">
+        <select id="dropdown4">
+          <option value="">No sound uploaded</option>
+        </select>
+        <input type="text" id="text4" placeholder="Enter text for button 4" onchange="UpdateText(4)">
+
+        <label for="file5">Upload Sound for Button 5:</label>
+        <input type="file" id="file5" accept="audio/mp3" onchange="HandleFileUpload(5)">
+        <select id="dropdown5">
+          <option value="">No sound uploaded</option>
+        </select>
+        <input type="text" id="text5" placeholder="Enter text for button 5" onchange="UpdateText(5)">
+
+        <label for="file6">Upload Sound for Button 6:</label>
+        <input type="file" id="file6" accept="audio/mp3" onchange="HandleFileUpload(6)">
+        <select id="dropdown6">
+          <option value="">No sound uploaded</option>
+        </select>
+        <input type="text" id="text6" placeholder="Enter text for button 6" onchange="UpdateText(6)">
+
+        <label for="file7">Upload Sound for Button 7:</label>
+        <input type="file" id="file7" accept="audio/mp3" onchange="HandleFileUpload(7)">
+        <select id="dropdown7">
+          <option value="">No sound uploaded</option>
+        </select>
+        <input type="text" id="text7" placeholder="Enter text for button 7" onchange="UpdateText(7)">
+
+        <label for="file8">Upload Sound for Button 8:</label>
+        <input type="file" id="file8" accept="audio/mp3" onchange="HandleFileUpload(8)">
+        <select id="dropdown8">
+          <option value="">No sound uploaded</option>
+        </select>
+        <input type="text" id="text8" placeholder="Enter text for button 8" onchange="UpdateText(8)">
+
+        <label for="file9">Upload Sound for Button 9:</label>
+        <input type="file" id="file9" accept="audio/mp3" onchange="HandleFileUpload(9)">
+        <select id="dropdown9">
+          <option value="">No sound uploaded</option>
+        </select>
+        <input type="text" id="text9" placeholder="Enter text for button 9" onchange="UpdateText(9)">
+
+      <button onclick="saveSoundChoices()">Save</button>
+    </div>
+    <script src="functions.js"></script>
+  </body>
+</html>
